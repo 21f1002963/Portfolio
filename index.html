@@ -73,18 +73,20 @@
 
     .tooltip-container {
       border: 1px solid #fff;
-      width: 300px;
+      width:100%;
+      /* width: 300px; */
       border-radius: 19px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 20px;
+      gap:8px;
     }
 
     .tooltip-icon {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
       align-items: center;
       font-size: 36px;
       font-weight: 700;
@@ -299,10 +301,10 @@
               <div class="flex justify-between items-center pb-4">
                 <div>
                   <h2
-                    class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1788ae] to-[#4595eb]">
+                    class="text-xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1788ae] to-[#4595eb]">
                     ABOUT ME
                   </h2>
-                  <div class="w-40 h-1 mt-2 bg-gradient-to-r from-[#1788ae] to-[#4595eb] rounded-full"></div>
+                  <div class="w-28 sm:w-40 h-1 mt-2 bg-gradient-to-r from-[#1788ae] to-[#4595eb] rounded-full"></div>
                 </div>
                 <button onclick="aboutDialog.close()"
                   class="p-2 rounded-full hover:bg-gray-700 transition-colors duration-200 group">
@@ -320,7 +322,7 @@
                   <!-- Introduction -->
                   <div class="mb-8">
                     <div class="flex items-start mb-4">
-                      <p class="text-gray-300 leading-relaxed text-[18px]">
+                      <p class="text-gray-300 leading-relaxed text-[16px] sm:text-[18px]">
                         Hello! I'm <span class="text-white font-medium">Mohit Kumar</span>, a passionate <span
                           class="text-[#4595eb] font-bold">MERN Stack Developer</span> and <span
                           class="text-[#4595eb] font-bold">Android Developer (React Native)</span> with expertise in
@@ -340,7 +342,7 @@
                   <!-- Education -->
                   <div class="mb-8">
                     <h3
-                      class="text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#1788ae] to-[#4595eb]">
+                      class="text-[18px] sm:text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#1788ae] to-[#4595eb]">
                       EDUCATION
                     </h3>
                     <div class="space-y-2 pl-4 border-l-2 border-gray-700">
@@ -350,8 +352,8 @@
                           <img class="h-full object-contain" src="./assets/images/sh-logo-1.png" alt="sh">
                         </div>
                         <div>
-                          <h4 class="text-lg font-semibold text-white">BSc Mathematics</h4>
-                          <p class="text-gray-400">Sacred Heart College, Kerala | 2019-2022</p>
+                          <h4 class="text-[17.5px] sm:text-lg font-semibold text-white">BSc Mathematics</h4>
+                          <p class="text-[15px] sm:text-[16px] text-gray-400">Sacred Heart College, Kerala | 2019-2022</p>
                         </div>
                       </div>
                       <div class="flex items-start mb-4">
@@ -360,8 +362,8 @@
                           <img class="h-full object-contain" src="./assets/images/IIT_Madras_Logo.png" alt="IIT Madras">
                         </div>
                         <div>
-                          <h4 class="text-lg font-semibold text-white">BS Data Science and Applications</h4>
-                          <p class="text-gray-400">IIT Madras | 2021-present</p>
+                          <h4 class="text-[17.5px] sm:text-lg font-semibold text-white">BS Data Science and Applications</h4>
+                          <p class="text-[15px] sm:text-[16px]  text-gray-400">IIT Madras | 2021-present</p>
                         </div>
                       </div>
                       <div class="flex items-start mb-4">
@@ -371,8 +373,8 @@
                             alt="Pondicherry University">
                         </div>
                         <div>
-                          <h4 class="text-lg font-semibold text-white">Masters in Computer Applications</h4>
-                          <p class="text-gray-400">Pondicherry University | 2024-present</p>
+                          <h4 class="text-[17.5px] sm:text-lg font-semibold text-white">Masters in Computer Applications</h4>
+                          <p class="text-[15px] sm:text-[16px]  text-gray-400">Pondicherry University | 2024-present</p>
                         </div>
                       </div>
                     </div>
@@ -386,7 +388,7 @@
                 <div class="md:w-1/2">
                   <div class="mb-6">
                     <h3
-                      class="text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#1788ae] to-[#4595eb]">
+                      class="text-[18px] sm:text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#1788ae] to-[#4595eb]">
                       TECHNICAL SKILLS
                     </h3>
 
